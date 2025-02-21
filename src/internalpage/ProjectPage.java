@@ -57,9 +57,9 @@ public class ProjectPage extends javax.swing.JInternalFrame {
 
         jLabel1.setFont(new java.awt.Font("Century Gothic", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("TASK MANAGEMENT SYSTEM");
+        jLabel1.setText("PROJECT MANAGEMENT SYSTEM");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(210, 0, 330, 70);
+        jLabel1.setBounds(210, 0, 380, 70);
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/header.jpg"))); // NOI18N
         jPanel1.add(jLabel11);
