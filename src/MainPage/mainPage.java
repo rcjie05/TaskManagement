@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Admin;
+package MainPage;
 
+import Admin.*;
 import java.awt.Color;
 import internalpage.*;
 import internalpage.UserdashboardPage;
@@ -14,12 +15,12 @@ import internalpage.TaskPage;
  *
  * @author SCC-COLLEGE
  */
-public class Admindashboard extends javax.swing.JFrame {
+public class mainPage extends javax.swing.JFrame {
 
     /**
      * Creates new form Admindashboard
      */
-    public Admindashboard() {
+    public mainPage() {
         initComponents();
     }
     
@@ -197,7 +198,7 @@ public class Admindashboard extends javax.swing.JFrame {
         );
 
         jPanel1.add(maindesktop);
-        maindesktop.setBounds(160, 40, 760, 420);
+        maindesktop.setBounds(160, 40, 760, 0);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -304,21 +305,23 @@ public class Admindashboard extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Admindashboard.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(mainPage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Admindashboard.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(mainPage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Admindashboard.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(mainPage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Admindashboard.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(mainPage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Admindashboard().setVisible(true);
+                new mainPage().setVisible(true);
             }
         });
     }

@@ -57,7 +57,7 @@ public class UserdashboardPage extends javax.swing.JInternalFrame {
 
         jLabel1.setFont(new java.awt.Font("Century Gothic", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("TASK MANAGEMENT SYSTEM");
+        jLabel1.setText("USER MANAGEMENT SYSTEM");
         jPanel1.add(jLabel1);
         jLabel1.setBounds(210, 0, 330, 70);
 

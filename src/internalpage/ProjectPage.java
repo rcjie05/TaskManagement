@@ -129,7 +129,7 @@ public class ProjectPage extends javax.swing.JInternalFrame {
 
         jLabel8.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel8.setText("TASK LIST");
+        jLabel8.setText("PROJECT LIST");
         tasklist.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, 110, 30));
 
         projectlist.setBackground(new java.awt.Color(153, 255, 153));
@@ -150,7 +150,7 @@ public class ProjectPage extends javax.swing.JInternalFrame {
 
         jLabel10.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel10.setText("PROJECT LIST");
+        jLabel10.setText("ADD PROJECT");
         projectlist.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, 110, 30));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);

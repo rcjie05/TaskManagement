@@ -150,7 +150,7 @@ public class TaskPage extends javax.swing.JInternalFrame {
 
         jLabel10.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel10.setText("PROJECT LIST");
+        jLabel10.setText("ADD TASK");
         projectlist.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, 110, 30));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
